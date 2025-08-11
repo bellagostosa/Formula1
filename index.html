@@ -5,16 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/10/Formula_1_Ferrari.jpg  "); /* Substitua pelo caminho da sua imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  background-size: cover; /* Faz a imagem cobrir todo o fundo */
-  /* Outras propriedades de estilo podem ser adicionadas aqui */
-}
+
+
+    body {
+      
+        background-color: #dbdbdb;
+    }
+.logo {
+        width: 15%;
+       position: absolute; /* ou relative, fixed, etc */
+        top: 10px;
+        left: 40px;
+     display: block;
+  margin-left: 0;
+    }
+    
+
+
+
+    .letras {
+        display: flex;
+        font-weight: normal;
+    
+        font-family: 'Times New Roman', Times, serif;
+        flex-wrap: wrap;
+        gap:12px;
+        justify-content: right;
+      
+
+    }
+    .grande {
+        width: 100%;
+        height: 410px;
+        display: block;
+        object-fit: cover;
+        border-radius: 20px;
+       
+    }
+   
+    
+    .segunda {
+        width: 30%;
+       text-align: center;
+      float: right;
+    margin-left: 20px; /* espaço do lado esquerdo */
+       border-radius: 20px;
+       margin-top: 100px;
+    }
+    .sla {
+     width: 60%;
+  height: 160px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: rgba(116, 23, 42, 0);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+   line-height: 1.4;
+  display: flex;
+  justify-content: center; /* alinha no centro horizontal */
+  align-items: center;     /* alinha no centro vertical */
+  text-align: center;      
+
+    }
+    
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 100px;
+    }
+    .terceiro {
+        width: 100%;
+        margin-top: 100px;
+        height: 1000px;
+        display: block;
+        object-fit: cover;
+        border-radius: 20px; /* ou o tamanho que você quiser */
+    height: auto;
+    }
+    button {
+    position: absolute;
+    top: 1200px; /* distância do topo da imagem */
+    left: 600px; /* distância da esquerda */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .tudo {
+        position: relative;
+        display: inline-block;
+    }
+    .fotinha {
+        width: 30%;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .fotoa {
+        width: 20%;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 55px;
+    }
+    .foto {
+        width: 30%;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+   
 
     </style>
 </head>
 <body>
+    <div class="container">
+   
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/F1_70_Logo_retraced.svg"  class="logo">
+<div class="letras"> 
+ <p>Informações </p>
+      <p>Equipe</p>
+      <p>Local</p>
+    </div>
+<div>
+    <img src="https://cdn.pixabay.com/photo/2014/10/16/01/50/ferrari-490617_1280.jpg" class="grande">
+        <img src="https://cdn.pixabay.com/photo/2024/01/15/12/05/race-8510076_1280.jpg" class="segunda">
+        </div>
+<div>
+    <h1> Onde tudo começou</h1>
+        <p class="sla">  A Fórmula 1 começou oficialmente em 1950 com o primeiro Campeonato Mundial de Pilotos. Desde então, tornou-se o auge do<br> automobilismo, reunindo os melhores engenheiros, carros mais rápidos e pilotos lendários. A cada temporada, novas rivalidades,<br> pistas icônicas e histórias incríveis ganham vida nas pistas do mundo todo.</p> 
+
+</div>
+
+<div class="tudo">
+    <img src="https://cdn.pixabay.com/photo/2016/12/14/15/30/f1-1906666_1280.jpg" class="terceiro">
+   
+    </div>
     
+
+
+    <img src="https://cdn.pixabay.com/photo/2021/09/18/01/14/sergio-perez-6633997_1280.jpg" class="fotinha"
+    >
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ferrari_F2003-GA_Michael_Schumacher_2003.jpg?20050729045812" class="fotoa">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/PikiWiki_Israel_35716_Formula_1_driver.jpg" class="foto">
+</div>
+
+
+</div>
+
+
+
+</div>
 </body>
 </html>
